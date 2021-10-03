@@ -1,13 +1,28 @@
-# Hello There
+# My Personal portfolio Project
 
-> A basic "Hello There" page that illustrate the use of tools and best practices for future projects.
+This is portfolio project that explains, who I am as a developer. Some projects I have worked on.
 
 Additional description about the project and its features.
 
 ## Built With
 
 - HTML
+
+  - Semantic html
+  - Html forms
+  - Heading and sectioning
+
+-
 - CSS
+
+  - Flexbox
+  - Floating Element
+  - Positioning
+  - Background properties
+  - Pseudo classes
+  - media Queries
+  - Transform properties
+
 - Stylelint, Github Actions
 
 ## Live Demo
