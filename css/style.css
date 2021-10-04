@@ -152,3 +152,34 @@ body {
 .recent-work-div{
   margin: 28px 0;
 }
+.recent-work-demo-wrapper{
+  height: 236px;
+  background-color: #fff;
+}
+
+.recent-work-article{
+  text-align: left;
+}
+.recent-work-article-header{
+  margin: 38px 0;
+}
+
+.recent-work-paragraph{
+  margin: 34px 0;
+  line-height: 1.7rem;
+}
+
+.recent-work-ul{
+  flex-wrap: wrap;
+}
+
+.recent-work-ul-li{
+  border-right: 1px solid #555;
+  padding-right: 24px;
+}
+
+.see-project-button{
+  width: 89px;
+  height: 48px;
+  margin-top: 48px;
+}
