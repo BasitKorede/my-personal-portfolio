@@ -1,7 +1,7 @@
 {
-  "name": "html-template",
+  "name": "my-personal-portfolio",
   "version": "1.0.0",
-  "description": "An html template",
+  "description": "a basic portfolio project that show who i  am as a web developer",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -12,7 +12,11 @@
     "stylelint-scss": "^3.17.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "npx prettier  --write **/*.{html,js,json,md,json,yaml,yml,jsx}",
+    "format:check": "npx prettier  --check **/*.{html,js,json,md,json,yaml,yml}",
+    "lint": "npx stylelint \"**/*.css\" --fix",
+    "lint:check": "npx stylelint \"**/*.css\"",
+    "hint": "npx hint --telemetry=off ."
   },
   "repository": {
     "type": "git",
