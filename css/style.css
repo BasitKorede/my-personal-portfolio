@@ -137,3 +137,18 @@ body {
   font-size: 14px;
   margin-top: 5px;
 }
+
+.my-recent-work-header{
+  margin: 28px 0;
+}
+
+.recent-work-header{
+  margin-top: 16px;
+  color: #9490FF;
+  border-bottom: 1px solid #646369;
+  padding-bottom: 33px;
+}
+
+.recent-work-div{
+  margin: 28px 0;
+}
