@@ -6,10 +6,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.header {
-  text-align: center;
-}
-
 .display-flex {
   display: flex;
 }
@@ -49,10 +45,7 @@ body {
   margin-bottom: 120px;
 }
 
-.name-div {
-  padding: 8px 16px;
-}
-
+.name-div,
 .toggle-button {
   padding: 8px 16px;
 }
@@ -82,6 +75,7 @@ body {
 
 .name-header {
   color: #7d73fc;
+  font-size: 32px;
 }
 
 .about-me-header {
