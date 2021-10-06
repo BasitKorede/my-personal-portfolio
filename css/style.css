@@ -222,6 +222,18 @@ body {
   background-color: #7d73fc;
 }
 
+.see-project-button:enabled {
+  background-color: #7d73fc;
+}
+
+.see-project-button:hover {
+  background-color: #7d73fc;
+}
+
+.see-project-button:active {
+  background-color: #5e42d7;
+}
+
 .border-none {
   border: none;
 }
