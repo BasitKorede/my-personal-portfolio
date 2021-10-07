@@ -49,6 +49,7 @@ body {
   top: 1317px;
   left: 0;
   width: 60%;
+  z-index: -1px;
 }
 
 .ellipse-21 {
@@ -164,36 +165,42 @@ body {
   font-size: 14px;
   margin-top: 5px;
 }
-
-.my-recent-work-header {
-  margin: 28px 0;
-}
-
-.recent-work-header {
-  margin-top: 16px;
-  color: #9490ff;
-  border-bottom: 1px solid #646369;
-  padding-bottom: 33px;
-  font-size: 30px;
-}
-
-.recent-work-div {
+.my-recent-work {
+  display: grid;
   margin: 28px 0;
   display: grid;
   grid-template-columns: repeat(2, 160px);
   grid-template-rows: min-content min-content;
 }
 
-.recent-work-demo-wrapper {
+.my-recent-work-header {
+  margin: 28px 0;
+}
+
+.recent-work-header {
+  margin: 24px 0;
+  color: #9490ff;
+  border-bottom: 1px solid #646369;
+  padding-bottom: 33px;
+  font-size: 30px;
+}
+
+.recent-work-div,
+.recent-work-header{
   grid-column-start: 1;
   grid-column-end: 3;
+}
+
+.recent-work-div {
+  flex-direction: column;
+}
+
+.recent-work-demo-wrapper {
   height: 236px;
   background-color: #fff;
 }
 
 .recent-work-article {
-  grid-column-start: 1;
-  grid-column-end: 3;
   text-align: left;
 }
 
@@ -219,8 +226,9 @@ body {
 .see-project-button {
   width: 89px;
   height: 48px;
-  margin-top: 48px;
+  margin: 48px 0;
   background-color: #7d73fc;
+  opacity: 0.8px;
 }
 
 .see-project-button:enabled {
@@ -229,6 +237,7 @@ body {
 
 .see-project-button:hover {
   background-color: #7d73fc;
+  opacity: 1;
 }
 
 .see-project-button:active {
