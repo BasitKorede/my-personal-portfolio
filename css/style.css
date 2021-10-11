@@ -249,34 +249,37 @@ body {
   border: none;
 }
 
-.contact-me-section{
+.contact-me-section {
   padding: 20px 24px 71px 24px;
 }
 
-.contact-me-header{
-  font: 500 32px/44px 'Roboto', sans-serif;
+.contact-me-header {
+  font: 500 32px/44px "Roboto", sans-serif;
 }
 
-.contact-me-para{
+.contact-me-para {
   line-height: 24px;
   margin-top: 24px;
   margin-bottom: 40px;
 }
 
-.form{
+.form {
   flex-direction: column;
 }
 
-
-.name-input,
-.email-input,
-.message-input{
+.input {
   width: 100%;
-  margin: 24px 0;
-  padding: 15px 16px;
-  font: 400 15px/24px 'Roboto', sans-serif;
+  margin: 15px 0;
+  padding: 10px;
+  font: 400 15px/24px "Roboto", sans-serif;
+  color: #000;
 }
 
-.footer{
+.input:focus {
+  outline: none;
+}
+
+.footer {
   border-top: 1px solid #3a3837;
+  padding-top: 20px;
 }
