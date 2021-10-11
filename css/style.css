@@ -108,7 +108,8 @@ body {
 }
 
 .name-header,
-.specialization-li {
+.specialization-li,
+.contact-me-header {
   color: #7d73fc;
 }
 
@@ -246,4 +247,20 @@ body {
 
 .border-none {
   border: none;
+}
+
+.contact-me-para{
+  line-height: 24px;
+}
+
+.form{
+  flex-direction: column;
+}
+
+
+.name-input,
+.email-input,
+.message-input{
+  width: 100%;
+  margin: 24px 0;
 }
