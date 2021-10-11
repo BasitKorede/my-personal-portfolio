@@ -75,8 +75,7 @@ npx hint --telemetry=off .
 ## 👤 Author
 
 - Github: [@basitkorede](https://github.com/basitkorede)
-- Twitter: [@basitkorede](https://twitter.com/basitkorede)
-- Linkedin: [@azeezrotimi019](https://www.linkedin.com/in/azeezrotimi019/)
+- Linkedin: [@basitkorede](https://www.linkedin.com/in/basit-korede/)
 
 ## 🤝 Contributing
 
