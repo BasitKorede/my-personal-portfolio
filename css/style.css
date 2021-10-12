@@ -95,11 +95,11 @@ body {
 }
 
 .bar:first-child {
-  transform: translateY(-6px);
+  transform: translateY(-4px);
 }
 
 .bar:last-child {
-  transform: translateY(6px);
+  transform: translateY(4px);
 }
 
 .main-page {
@@ -111,6 +111,7 @@ body {
 .specialization-li,
 .contact-me-header {
   color: #7d73fc;
+  font-size: 35px;
 }
 
 .about-me-header {
@@ -192,10 +193,6 @@ body {
   grid-column-end: 3;
 }
 
-.recent-work-div {
-  flex-direction: column;
-}
-
 .recent-work-demo-wrapper {
   height: 236px;
   background-color: #fff;
@@ -263,7 +260,7 @@ body {
   margin-bottom: 40px;
 }
 
-.form {
+.flex-d-col {
   flex-direction: column;
 }
 
