@@ -95,11 +95,11 @@ body {
 }
 
 .bar:first-child {
-  transform: translateY(-6px);
+  transform: translateY(-4px);
 }
 
 .bar:last-child {
-  transform: translateY(6px);
+  transform: translateY(4px);
 }
 
 .main-page {
@@ -108,8 +108,10 @@ body {
 }
 
 .name-header,
-.specialization-li {
+.specialization-li,
+.contact-me-header {
   color: #7d73fc;
+  font-size: 35px;
 }
 
 .about-me-header {
@@ -191,10 +193,6 @@ body {
   grid-column-end: 3;
 }
 
-.recent-work-div {
-  flex-direction: column;
-}
-
 .recent-work-demo-wrapper {
   height: 236px;
   background-color: #fff;
@@ -246,4 +244,40 @@ body {
 
 .border-none {
   border: none;
+}
+
+.contact-me-section {
+  padding: 20px 24px 71px;
+}
+
+.contact-me-header {
+  font: 500 32px/44px "Roboto", sans-serif;
+}
+
+.contact-me-para {
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.flex-d-col {
+  flex-direction: column;
+}
+
+.input {
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px;
+  font: 400 15px/24px "Roboto", sans-serif;
+  color: #191765;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #9490ff;
+}
+
+.footer {
+  border-top: 1px solid #3a3837;
+  padding-top: 20px;
 }

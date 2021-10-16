@@ -14,13 +14,15 @@ body {
 a {
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
 }
 
 ul {
   list-style: none;
 }
 
-button{
+button {
   background-color: #191765;
   border: none;
+  cursor: pointer;
 }
