@@ -247,7 +247,7 @@ body {
 }
 
 .contact-me-section {
-  padding: 20px 24px 71px 24px;
+  padding: 20px 24px 71px;
 }
 
 .contact-me-header {
@@ -269,11 +269,12 @@ body {
   margin: 15px 0;
   padding: 10px;
   font: 400 15px/24px "Roboto", sans-serif;
-  color: #000;
+  color: #191765;
 }
 
 .input:focus {
   outline: none;
+  border: 1px solid #9490ff;
 }
 
 .footer {
