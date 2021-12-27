@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "a basic portfolio project that show who i  am as a web developer",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "hint": "^6.0.7",
+    "hint": "6.0.x",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.9.0",
