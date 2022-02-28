@@ -105,6 +105,9 @@ body {
   position: absolute;
   right: .72rem;
   top: .40rem;
+  z-index: 2;
+  background-color: #191765;
+  transition: all .5s ease-in-out;
 }
 
 .bar {
@@ -115,6 +118,7 @@ body {
   left: 28px;
   top: 50%;
   width: 20px;
+  transition: all .5s ease-in-out;
 }
 
 .bar:first-child {
@@ -125,6 +129,22 @@ body {
   transform: translateY(4px);
 }
 
+.toggle-button.open .bar{
+  transform: translate(-10px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.toggle-button.open .bar:first-child{
+ transform: rotate(56deg) translate(10px, -10px);
+  background-color: white;
+}
+
+.toggle-button.open .bar:last-child{
+  transform: rotate(-50deg) translate(10px, 10px);
+  background-color: white;
+ }
+
 .nav-ul{
   flex-direction: column;
   width: 100%;
@@ -132,10 +152,25 @@ body {
   position: fixed;
   z-index: 1;
   background-color: #191765;
+  top: 0;
+  height: 100%; 
+
 }
 
 .nav-ul-li{
-  margin: 24px 0;
+  margin: 54px 0;
+}
+
+.first-li-cresent{
+  right: 0;
+  bottom: -51px;
+  z-index: -1;
+}
+
+.second-li-cresent{
+  left: 0;
+  bottom: 96px;
+  z-index: -1;
 }
 
 .main-page,

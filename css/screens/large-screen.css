@@ -14,12 +14,23 @@
   margin: 0 auto;
 }
 
-.justify-concontent-lg{
+.justify-content-lg{
   justify-content: space-between;
+}
+.nav-bar{
+  flex-direction: row;
+}
+.navigation-link{
+  width: 50%;
+
 }
 
 .nav-ul {
   padding: 8px 16px;
+ flex-direction: row;
+ height:fit-content;
+ width: 50%;
+
 }
 
 .nav-ul-li {
